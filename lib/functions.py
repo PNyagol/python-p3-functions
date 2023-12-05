@@ -6,15 +6,15 @@ def greet_programmer():
 
 
 def greet(name):
-    print(f"Hello, ${name}!")
-    greet("Naureen")
+    print(f"Hello, {name}!")
+greet("Naureen")
 
 
 
 def greet_with_default(name="programmer"):
-    print(f"Hello, ${name}!")
-    greet_with_default()
-    greet_with_default("Sunny")
+    print(f"Hello, {name}!")
+greet_with_default()
+greet_with_default("Sunny")
 
 
 def add(num1, num2):
